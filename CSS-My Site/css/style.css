@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #7F7C82;
+}
+h1 {
+
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #BFA2DB;
+  margin-bottom: 10px;
+  line-height: 2;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #BFA2DB;
+  margin-top: 0;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #BFA2DB;
+}
+p{
+  line-height: 2;
+}
+a
+{
+  color: #BFA2DB;
+}
+a:hover{
+  color: #f0b4ee;
+}
+hr{
+  background-color: #F3F1F5;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3e1fb;
+  border-width: thick;
+  height: 0;
+  width: 5%;
+  margin: 75px auto;
+}
+.top-container {
+  background-color: #F0D9FF;
+  position: relative;
+  padding-top: 100px;
+}
+.title {
+  font-size: 1.5rem;
+}
+.top-cloud{
+  position: absolute;
+  right: 375px;
+  top: 195px;
+}
+
+.dev{
+  text-decoration: underline;
+}
+.and{
+  font-size: 1.5rem;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 349px;
+  bottom: 385px;
+}
+
+.middle-container{
+  background-color: #F3F1F5;
+  padding: 50px 0;
+}
+.profile{
+margin-bottom: 100px;
+}
+.profile_img{
+  width: 15%;
+  padding-bottom: 10px;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.skills{
+  margin: 50px auto 100px auto;
+
+}
+.skill-row{
+  width:60%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+.python{
+  width: 20%;
+  float: left;
+  padding-right: 20px;
+}
+.devops{
+  width: 25%;
+  padding-left: 20px;
+  float: right;
+}
+.contact-me{
+  padding-bottom: 50px;
+  margin-top: 150px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #f3f1f5;
+  font-size: 28px;
+  background: #c0a2db;
+  padding: 14px 22px 14px 22px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+
+.btn:hover {
+  background: #f0b4ee;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #F0D9FF;
+  line-height: 2;
+  padding: 25px 0 5px 0;
+  text-align: center;
+}
+.footer-link{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #BFA2DB;
+}
+.copy-right{
+  position: relative;
+  right:28px;
+  font-size: 0.75rem;
+  color: #7F7C82;
+}
